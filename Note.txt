@@ -1,0 +1,11 @@
+IMP:--> In current folder in cmd type "code ." to open in vscode	or	Right click open in vscode
+
+
+HTML Lesson Github Linking
+1. Login to Github
+2. Create Repository at Github "Any Name"
+3. Create Local Folder E:\mydocument\basic_html
+4. Open in vscode by CMD: code .
+5. git init
+6. git add.
+7. git comit =m "First Commit with Basic Html"
