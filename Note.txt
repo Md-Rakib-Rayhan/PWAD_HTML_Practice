@@ -1,5 +1,16 @@
 IMP:--> In current folder in cmd type "code ." to open in vscode	or	Right click open in vscode
 
+Use Alt + Z to view long line to fit (or rape) in VSCode screen, or oposide
+Ex:= "ndsbfkjsadhfjksdasdfsdfsdafffdfdfdkfLorem ipsum dolor sit, amet consectetur adipisicing elit.
+	to view
+	"Lorem ipsum dolor sit, amet
+	consectetur adipisicing elit."
+
+<h1 style="">Paragraph 1</h1>
+   Attribute
+
+Auto Rename Tag extenstion for change html tag easily, change one effect both opening and closing
+
 
 HTML Lesson Github Linking
 1. Login to Github
@@ -8,4 +19,9 @@ HTML Lesson Github Linking
 4. Open in vscode by CMD: code .
 5. git init
 6. git add.
-7. git comit =m "First Commit with Basic Html"
+7. git comit -m "First Commit with Basic Html"
+8. git branch -M main
+9. git remote add origin https://github.com/roobon/pwad68_html_lessons.git
+10. git push -u origin main
+
+

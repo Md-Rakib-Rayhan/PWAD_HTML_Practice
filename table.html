@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table</title>
+    <!-- Internal Style -->
+    <style>
+        table, td{
+            border: 1px solid black;
+            /* border: 1px dotted black; */
+            border-collapse: collapse;
+        }
+
+        td{
+            width: 100px;
+        }
+
+    </style>
+</head>
+<body>
+<!-- inline style -->
+    <h1 style="color: red;">3 Column and 3 Row Table</h1>
+
+<!-- <table border="1"> old style way not used now-->
+    <!-- <table border="1"> -->
+    <table>
+        <tr> <!-- Block Line-->
+            <td>ID</td> <!-- In line -->
+            <td>NAME</td>
+            <td>EMAIL</td>
+        </tr>
+        <tr> 
+            <td>1</td> 
+            <td>Md</td>
+            <td>md@gmail.com</td>
+        </tr>
+        <tr> 
+            <td>2</td> 
+            <td>Rakib</td>
+            <td>rakib@gmail.com</td>
+        </tr>
+        <tr> 
+            <td>3</td> 
+            <td>Rayhan</td>
+            <td>rayhan@gmail.com</td>
+        </tr>
+    </table>
+    
+<br>
+    <table>
+        <tr>  
+            <th>ID</th> <!-- Table Heading -->
+            <th>NAME</th>
+            <th>EMAIL</th>
+        </tr>
+        <tr> 
+            <td>1</td> <!-- Table Cell -->
+            <td>Md Rakib</td>
+            <td>md@gmail.com</td>
+        </tr>
+        <tr> 
+            <td>2</td> 
+            <td>Rakibul Islam</td>
+            <td>rakib@gmail.com</td>
+        </tr>
+        <tr> 
+            <td>3</td> 
+            <td>Rayhan Khan</td>
+            <td>rayhan@gmail.com</td>
+        </tr>
+    </table>
+
+
+<br>
+
+
+    <h2 style="color: green;">4 Column and 4 Row Table</h2>
+    <h3 style="color: green;">Cell March</h3>
+    <table>
+        <tr>  
+            <td>A</td>  
+            <td colspan="2">B</td>  <!-- March B and C cell -->
+            <!-- <td>C</td> -->
+            <td>D</td>
+        </tr>
+        <tr>  
+            <td>E</td>  
+            <td>F</td>
+            <td>G</td>
+            <td>H</td>
+        </tr>
+        <tr>  
+            <td>I</td>  
+            <td>J</td>
+            <td>K</td>
+            <td>L</td>
+        </tr>
+        <tr>  
+            <td>M</td>  
+            <td>N</td>
+            <td>O</td>
+            <td>P</td>
+        </tr>
+ 
+    </table>
+ 
+    
+</body>
+</html>
