@@ -1,7 +1,10 @@
 IMP:--> In current folder in cmd type "code ." to open in vscode	or	Right click open in vscode
 
+CTRL + space For see suggestion in tag attribute. if (target="") then (target="select and ctrl+space") then the suggestion appear
+	ex: <a href="https://www.w3schools.com" target="_blank">Visite</a>
+
 Use Alt + Z to view long line to fit (or rape) in VSCode screen, or oposide
-Ex:= "ndsbfkjsadhfjksdasdfsdfsdafffdfdfdkfLorem ipsum dolor sit, amet consectetur adipisicing elit.
+Ex:= "Lorem ipsum dolor sit, amet consectetur adipisicing elit.
 	to view
 	"Lorem ipsum dolor sit, amet
 	consectetur adipisicing elit."

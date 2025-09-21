@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance Form</title>
+</head>
+<body>
+    <h3>Advance Registration Form</h3>
+    <form action="">
+        FullName: <br>
+        <input type="text" name="fullname" placeholder="Enter your number" required><br>
+
+        <!-- 2 radio type input er "name=gender" same tai jekono ekta select hobe -->
+        Gender <br>
+        <input type="radio" name="gender" value="male">
+        Male
+        <input type="radio" name="gender" value="female">
+        Female
+        
+        <br>
+
+        <!-- Multi Checkbox -->
+        Language Skills: <br>
+        <input type="checkbox" name="php" > PHP
+        <input type="checkbox" name="html"> HTML
+        <input type="checkbox" name="java">JAVA
+        <input type="checkbox" name="python"> PYTHON
+        <br>
+
+        <!-- Dropdown -->
+        District: <br>
+        <select name="district" id="">
+            <!-- Disabled used for disable the "Select One" option and Selected used for by default select that one for 1st view -->
+            <option value="" disabled selected>Select One</option>
+            <option value="Dhaka">Dhaka</option>
+            <option value="Narayanganj">Narayanganj</option>
+            <option value="Sirajganj">Sirajganj</option>
+        </select>
+
+        <br>
+        <br>
+        Resume: <br>
+        <input type="file" name="" id="">
+        <br>
+        <br>
+
+        <!-- Button tag/keyword ta form er moddhe thaklei sudho submit hobe -->
+        <button> Register </button>
+
+    </form>
+</body>
+</html>
