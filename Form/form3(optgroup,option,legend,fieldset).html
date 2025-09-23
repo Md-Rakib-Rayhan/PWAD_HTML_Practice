@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Registration Form</h3>
+    <form action="">
+
+        <!-- Fieldset -->
+        <fieldset>
+
+            <!-- Legend -->
+            <legend>Personal Information</legend>
+
+            <!-- required attribute -->
+             <!-- aikhane "name" a kiso na likhle submittion a value store hobe na-->
+            <input type="text" name="fullname" placeholder="Enter Your Name" required> <br>
+            <textarea name="address" id="" placeholder="Enter Address"></textarea> <br>
+            Gender <br>
+
+            <!-- Value na dile kisoi store hobe na -->
+            <input type="radio" name="gender" value="male">male
+            <input type="radio" name="gender" value="female"> female <br>
+
+            <!-- Select, Option Group, Option -->
+            <select name="district" id="">
+                <option value="">Select One</option>
+                <optgroup label="Dhaka">
+                    <option value="Gazipur">Gazipur</option>
+                    <option value="Narayanganj">Narayanganj</option>
+                </optgroup>
+                <optgroup label="Rajshahi">
+                    <option value="Sirajganj">Sirajganj</option>
+                    <option value="Bogura">Bogura</option>
+                </optgroup>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Login Information</legend>
+            <input type="text" name="" placeholder="Enter Your Name"> <br>
+            <input type="password" name="password" placeholder="Enter password"> <br>
+            <input type="password" name="repeate_password" placeholder="Repeate Password">
+        </fieldset>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+
+
+
+    <!-- Jokhon input type korbo tokhon sudho "name" ta thaklei value store hobe -->
+    <!-- r jokhon option select korbo kono input likhbo na tokhon "value" age theke likhe dite hobe -->
+</body>
+</html>
