@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+
+</head>
+<body>
+    
+    
+
+    <table>
+         <caption>Product List with Price</caption>
+
+        <!-- colgroup a col diye column span diye multiple column dhore styling kora jabe -->
+        <colgroup>
+            <col span="2" style="background-color: bisque;">
+            <col span="2" style="background-color: yellowgreen;">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Product Code</th>
+                <th>Product Name</th>
+                <th>Price</th>
+                <th>Qantity</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>123</td>
+                <td>Realme</td>
+                <td>20000</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>124</td>
+                <td>Redme</td>
+                <td>120000</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>126</td>
+                <td>Huwai</td>
+                <td>80000</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>127</td>
+                <td>Nothing</td>
+                <td>100000</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>128</td>
+                <td>CMF</td>
+                <td>100000</td>
+                <td>2</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="2">Total</td>
+                <td>250000</td>
+                <td>12</td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+</body>
+</html>

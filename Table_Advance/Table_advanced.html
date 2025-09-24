@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table advance</title>
+    <style>
+        table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        thead{
+            background-color: rgb(255, 26, 121);
+            color: white;
+        }
+        tbody{
+            background-color: pink;
+        }
+        tfoot{
+            background-color: rgb(19, 19, 19);
+            color: wheat;
+        }
+    </style>
+</head>
+<body>
+    <h3>Product Table</h3>
+    <table>
+        <!-- Caption -->
+         <caption>Product List with Price</caption>
+
+        <!-- thead just barti style er jonno -->
+        <thead>
+            <tr>
+                <th>Product Code</th>
+                <th>Product Name</th>
+                <th>Price</th>
+                <th>Qantity</th>
+            </tr>
+        </thead>
+
+        <!-- tbody same just for apply extra style -->
+        
+        <tbody>
+            <tr>
+                <td>123</td>
+                <td>Realme</td>
+                <td>20000</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>124</td>
+                <td>Redme</td>
+                <td>120000</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>126</td>
+                <td>Huwai</td>
+                <td>80000</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>127</td>
+                <td>Nothing</td>
+                <td>100000</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>128</td>
+                <td>CMF</td>
+                <td>100000</td>
+                <td>2</td>
+            </tr>
+        </tbody>
+
+        <!-- Same just for extra tag for styling -->
+        <tfoot>
+            <tr>
+                <td colspan="2">Total</td>
+                <td>250000</td>
+                <td>12</td>
+            </tr>
+        </tfoot>
+        <!-- <caption>this caption automatically apply on top</caption> -->
+    </table>
+
+
+
+</body>
+</html>
