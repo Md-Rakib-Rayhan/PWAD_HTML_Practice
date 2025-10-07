@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        td{
+            width: 70px;
+            text-align: center;
+        }
+        .not-center{
+            text-align: left;
+        }
+        .text-bold{
+            font-weight: bold;
+        }
+        table{
+            margin: 0 auto;
+            background-color: azure;
+        }
+        div{
+            height: 100vh;
+            align-content: center;
+        }
+    </style>
+</head>
+<body style="background-color: lightsalmon;">
+    <div>
+        <table>
+            <caption class="text-bold">Table 1:A more complex table</caption>
+            <tr>
+                <td rowspan="2"></td>
+                <td colspan="2" class="text-bold">average</td>
+                <td rowspan="2" class="text-bold">other category</td>
+            </tr>
+            <tr>
+            
+                <td class="text-bold">height</td>
+                <td class="text-bold">weight</td>
+                
+            </tr>
+            <tr>
+                <td class="not-center text-bold">males</td>
+                <td>height</td>
+                <td>0.003</td>
+                <td>yyy</td>
+            </tr>
+            <tr>
+                <td class="not-center text-bold">females</td>
+                <td>1.9</td>
+                <td>0.002</td>
+                <td>xxx</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
