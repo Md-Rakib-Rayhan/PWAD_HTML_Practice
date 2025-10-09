@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th{
+            background-color: rgb(17, 107, 211);
+            color: white;
+            text-align: left;
+        }
+        th, td{
+            width: 150px;
+            height: 30px;
+            padding-left: 8px;
+        }
+        .center{
+            padding: 0;
+            text-align: center;
+        }
+        div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            height: 90vh;
+        }
+    </style>
+</head>
+<body>
+    <div>
+
+        <table>
+            <tr>
+                <th></th>
+                <th>Friday</th>
+                <th>Saturday</th>
+                <th>Sunday</th>
+            </tr>
+            <tr>
+                <td>8am-8.30am</td>
+                <td colspan="3" class="center">Breakfast</td>
+
+            </tr>
+            <tr>
+                <td>9am-11am</td>
+                <td colspan="2" class="center">Swimming</td>
+                <td>Tennis</td>
+            </tr>
+            <tr>
+                <td>12am-13am</td>
+                <td colspan="3" class="center">Lunch</td>
+
+            </tr>
+            <tr>
+                <td>14am-16am</td>
+                <td>Cinema</td>
+                <td>Zoo</td>
+                <td>Museum</td>
+            </tr>
+
+        </table>
+
+
+    </div>
+</body>
+</html>

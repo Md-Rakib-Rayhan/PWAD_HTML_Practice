@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            display: flex;
+            min-height: 95vh;
+            align-items: center;
+            justify-content: center;
+
+        }
+        form{
+            padding: 30px;
+            background-color: rgb(234, 235, 255);
+            border: 1px solid rgb(223, 223, 223);
+            box-shadow: 5px 10px 8px #888888;
+        }
+        caption{
+            font-weight: bold;
+            font-size: 25px;
+            padding-bottom: 12px;
+        }
+        td{
+            padding-top: 10px;
+        }
+        .width_row input{
+            width: 280px;
+        }
+        #student_td input{
+            width: 134px;
+        }
+        #date input{
+            width: 45px;
+        }
+        #date{
+            color: #888888;
+        }
+        select{
+            width: 285px;
+            text-align: center;
+
+        }
+        textarea{
+            width: 280px;
+        }
+        .submit{
+            text-align: center;
+        }
+        .submit input{
+            width: 100px;
+            height: 30px;
+        }
+        
+    </style>
+</head>
+<body>
+
+
+    <div>
+        <form action="">
+            <table>
+                <caption>Student Registration Form</caption>
+                <tr>
+                    <td>Roll no. :</td>
+                    <td class="width_row"><input type="text" name="roll"></td>
+                </tr>
+                <tr>
+                    <td>Student name :</td>
+                    <td id="student_td"><input type="text" name="fname" placeholder="First Name">
+                        <input type="text" name="lname" placeholder="Last Name">
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Father's name :</td>
+                    <td class="width_row"><input type="text" name="father_name"></td>
+                </tr>
+                <tr>
+                    <td>Date of birth :</td>
+                    <!-- <td><input type="date" name="date"></td> -->
+                    <td id="date">
+                        <input type="text" name="day" placeholder="Day">
+                        <input type="text" name="month" placeholder="Mounth">
+                        <input type="text" name="Year" placeholder="Year">
+                        <span>(DD-MM-YYYY)</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mobile No. :</td>
+                    <td class="width_row"><input type="tel" name="number"></td>
+                </tr>
+                <tr>
+                    <td>Eamil id :</td>
+                    <td class="width_row"><input type="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td>Password :</td>
+                    <td class="width_row"><input type="password" name="password"></td>
+                </tr>
+                <tr>
+                    <td>Gender :</td>
+                    <td><input type="radio" name="gender" value="male">Male
+                    <input type="radio" name="gender" value="femalemale">Female
+                </td>
+                </tr>
+                <tr>
+                    <td>Department :</td>
+                    <td>
+                        <input type="checkbox" name="department" value="cse" id=""> CSE
+                        <input type="checkbox" name="department" value="it" id=""> It
+                        <input type="checkbox" name="department" value="ece" id=""> ECE
+                        <input type="checkbox" name="department" value="civil" id=""> Civil
+                        <input type="checkbox" name="department" value="mech" id=""> Mech
+                    </td>
+                </tr>
+                <tr>
+                    <td>Course :</td>
+                    <td>
+                        <select name="course" id="">
+                            <option value="">---------- Select Current Course's ----------</option>
+                            <option value="cse">CSE</option>
+                            <option value="civil">Civil</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Student Photo :</td>
+                    <td><input type="file" name="photo" id=""></td>
+                </tr>
+                <tr>
+                    <td>City :</td>
+                    <td class="width_row"><input type="text" name="city" id=""></td>
+                </tr>
+                <tr>
+                    <td>Address :</td>
+                    <td>
+                        <textarea name="address" id=""></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    
+                    <td colspan="2" class="submit"><input type="submit" name="submit" value="submit"></td>
+                </tr>
+
+            </table>
+        </form>
+    </div>
+
+
+
+
+</body>
+</html>
