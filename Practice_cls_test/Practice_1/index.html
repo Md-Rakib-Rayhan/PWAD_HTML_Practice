@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .main{
+            display: grid;
+            width: 100%;
+            grid-template-columns: 30% 70%;
+            min-height: 100vh;
+
+        }
+        .grid70{
+            background-color: bisque;
+        }
+        .grid30{
+            background-color: rgb(231, 231, 231);
+        }
+        button{
+            height: 50px;
+            width: 100%;
+            display: block;
+            font-weight: bold;
+        }
+        button:hover{
+            background-color: rgb(20, 122, 92);
+            color: white;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="grid30">
+            <a href="result.html" target="iframe_my"><button class="Reg">Registration Form</button></a>
+            <a href="registration.html" target="iframe_my"><button class="Res">Result Table</button></a>         
+        </div>
+        <div class="grid70">
+            <iframe src="result.html" frameborder="0" name="iframe_my" class="frame" width="100%" height="100%"></iframe>
+        
+          
+        </div>
+    </div>
+
+    <script>
+
+
+    </script>
+</body>
+</html>

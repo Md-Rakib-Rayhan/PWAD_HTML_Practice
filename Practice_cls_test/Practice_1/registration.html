@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        form{
+            display: grid;
+            grid-template-columns: 30% 70%;
+            row-gap: 10px;
+
+            padding: 50px;
+            border: 1px solid black;
+            background-color: whitesmoke;
+            
+        }
+        .main{
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main">
+        <form action="">
+            Id:
+            <input type="text" name="id" placeholder="Enter Your Id">
+            Name:
+            <textarea name="name"></textarea>
+            Round:
+            <select name="round" id="">
+                <option value="">Select</option>
+                <option value="PWAD-67">PWAD-67</option>
+                <option value="PWAD-68">PWAD-68</option>
+            </select> 
+            Gender:
+            <div class="gender">
+                <input type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female 
+            </div>
+            Education:
+            <div class="education">
+                <input type="checkbox" name="education" value="SSC">SSC
+                <input type="checkbox" name="education" value="HSC">HSC 
+            </div>
+            <input type="submit" value="Submit">
+            <input style="width: 50%; margin-left: 10px;" type="reset" value="Reset">
+
+    </div>
+
+
+    <!-- <div class="main">
+        <form action="">
+            Id:
+            <input type="text" name="id" placeholder="Enter Your Id"><br>
+            Name:
+            <textarea name="name"></textarea><br>
+            Round:
+            <select name="round" id="">
+                <option value="">Select</option>
+                <option value="PWAD-67">PWAD-67</option>
+                <option value="PWAD-68">PWAD-68</option>
+            </select> <br>
+            Gender:
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female <br>
+            Education:
+            <input type="checkbox" name="education" value="SSC">SSC
+            <input type="checkbox" name="education" value="HSC">HSC <br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+
+    </div> -->
+    
+</body>
+</html>
